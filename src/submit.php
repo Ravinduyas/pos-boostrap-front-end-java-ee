@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ->setCellValue('D1', 'Phone Number')
         ->setCellValue('E1', 'Address');
 
+
     $objPHPExcel->getActiveSheet()
         ->setCellValue('A2', $firstName)
         ->setCellValue('B2', $lastName)
